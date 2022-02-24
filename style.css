@@ -2,6 +2,63 @@
 
 body{}
 
-#box{
+.box{
     width: 860px; margin: 0 auto;
 }
+
+/* TOPO */
+
+header{
+
+}
+#header_topo{
+    height: 60px; border-bottom: 5px solid #383939;
+    
+}
+/* depois */
+#header_topo a img{
+    float: left;
+}
+#header_topo ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#header_topo ul li{
+   font: 24px "Trebuchet MS", Arial,Helvetica,sans-serif;
+   font-weight: bold;
+   display: inline;
+   float: left;
+
+}
+#header_topo ul li a
+{
+    padding: 5px;
+    float: left;
+    text-decoration: none;
+    margin: 10px 20px;
+    color: #069;
+}
+
+#header_topo ul li a:hover{
+    background: #3f48cc;
+    color: #930;
+    border-radius: 15px;
+}
+
+/* antes do depois */
+
+#header_navegar{}
+
+/* IMOVEIS HOME */
+#imoveis_home{}
+
+
+/* imovies home Lista */
+#imoveis_home_lista{}
+
+/* footer */
+
+#footer{}
