@@ -50,7 +50,55 @@ header{
 
 /* antes do depois */
 
-#header_navegar{}
+/* aula 04 */
+#header_navegar{ 
+    width: 860px;
+    height: 250px;
+
+}
+#header_navegar_central{
+    width: 235px;
+    float: left;/* jogando para o lado*/
+}
+#header_navegar_central_anunciante
+{
+    width: 235px;
+    height: 122px;
+    background: url("images/central_bg.jpg") no-repeat;
+}
+
+#header_navegar_central_anuncie
+{
+    width: 235px;
+    height: 128px;
+    background: url("images/anuncie_bg.jpg") no-repeat;
+
+}
+#header_navegar_filtro
+{
+    width: 412px;
+    height: 250px;
+    background: url("images/busca_anacanda_bg.jpg") no-repeat;
+    float: left;
+}
+#header_navegar_publicidade
+{
+    width: 200px;
+    height: 250px;
+    padding: 5px;
+    float: right;
+}
+#header_navegar_publicidade h1{
+    font: 16px Georgia,"Times New Roman", Times, serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #069; 
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #069;
+
+
+}
 
 /* IMOVEIS HOME */
 #imoveis_home{}
