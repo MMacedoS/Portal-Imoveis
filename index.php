@@ -30,7 +30,20 @@
         <div id="header_navegar">
                     <div id="header_navegar_central">
                         <div id="header_navegar_central_anunciante">
-                            
+                            <form action="" name="central_anunciante" method="post">
+                                <label for="">
+                                    <span>Usuario:</span>
+                                    <input type="text" value="" name="usuario" >
+                                </label>
+                                <label for="">
+                                    <span class="senha_txt">Senha:</span>
+                                    <input type="password" value="" class="senha" name="senha" >
+                                    <input type="submit" value="" name="enviar" class="btn">
+                                </label>
+                               
+
+                            </form>
+                            <p>Esqueci minha senha</p>
                         </div>
                         <div id="header_navegar_central_anuncie">
 
@@ -60,5 +73,9 @@
     <section id="footer">
 
     </section>
+
+<div style="display:none">
+    <img src="images/central_btn_hover.png" alt="">
+</div>
 </body>
 </html>

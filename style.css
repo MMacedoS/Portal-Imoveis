@@ -67,6 +67,16 @@ header{
     background: url("images/central_bg.jpg") no-repeat;
 }
 
+#header_navegar_central_anunciante label{ display:block}
+#header_navegar_central_anunciante p{font: 14px "Trebuchet MS", Arial,Helvetica,sans-serif; color:#666; text-align: center;}
+#header_navegar_central_anunciante form{ margin:40px 0 0 15px;float:left}
+#header_navegar_central_anunciante span{font: 14px "Trebuchet MS", Arial,Helvetica,sans-serif; color:#069; width:55px; float:left;text-align: right; margin-right: 2px;}
+#header_navegar_central_anunciante input{width:141px;height:16px; border:1px solid #069; background:#fff; padding:2px}
+#header_navegar_central_anunciante label{margin:0 0 2px 0;}
+#header_navegar_central_anunciante .senha{ width:90px; margin: 3px 0 0 0;}
+#header_navegar_central_anunciante .btn{width:50px;height:26px; float: right; background:url(images/central_btn.png) no-repeat; border: 1px solid #c7c7c7}
+#header_navegar_central_anunciante .senha_txt{margin:3px 2px 0 0;}
+#header_navegar_central_anunciante .btn:hover{background:url(images/central_btn_hover.png) no-repeat;}
 #header_navegar_central_anuncie
 {
     width: 235px;
