@@ -2,6 +2,111 @@
 
 body{}
 
-#box{
+.box{
     width: 860px; margin: 0 auto;
 }
+
+/* TOPO */
+
+header{
+
+}
+#header_topo{
+    height: 60px; border-bottom: 5px solid #383939;
+    
+}
+/* depois */
+#header_topo a img{
+    float: left;
+}
+#header_topo ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#header_topo ul li{
+   font: 24px "Trebuchet MS", Arial,Helvetica,sans-serif;
+   font-weight: bold;
+   display: inline;
+   float: left;
+
+}
+#header_topo ul li a
+{
+    padding: 5px;
+    float: left;
+    text-decoration: none;
+    margin: 10px 20px;
+    color: #069;
+}
+
+#header_topo ul li a:hover{
+    background: #3f48cc;
+    color: #930;
+    border-radius: 15px;
+}
+
+/* antes do depois */
+
+/* aula 04 */
+#header_navegar{ 
+    width: 860px;
+    height: 250px;
+
+}
+#header_navegar_central{
+    width: 235px;
+    float: left;/* jogando para o lado*/
+}
+#header_navegar_central_anunciante
+{
+    width: 235px;
+    height: 122px;
+    background: url("images/central_bg.jpg") no-repeat;
+}
+
+#header_navegar_central_anuncie
+{
+    width: 235px;
+    height: 128px;
+    background: url("images/anuncie_bg.jpg") no-repeat;
+
+}
+#header_navegar_filtro
+{
+    width: 412px;
+    height: 250px;
+    background: url("images/busca_anacanda_bg.jpg") no-repeat;
+    float: left;
+}
+#header_navegar_publicidade
+{
+    width: 200px;
+    height: 250px;
+    padding: 5px;
+    float: right;
+}
+#header_navegar_publicidade h1{
+    font: 16px Georgia,"Times New Roman", Times, serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #069; 
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #069;
+
+
+}
+
+/* IMOVEIS HOME */
+#imoveis_home{}
+
+
+/* imovies home Lista */
+#imoveis_home_lista{}
+
+/* footer */
+
+#footer{}

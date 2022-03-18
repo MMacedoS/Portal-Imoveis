@@ -22,10 +22,29 @@
                 </ul>     
 
             </div>
-            <div id="header_navegar">
-
-            </div>
+            
         </header>
+    </section>
+    
+    <section class="box">
+        <div id="header_navegar">
+                    <div id="header_navegar_central">
+                        <div id="header_navegar_central_anunciante">
+                            
+                        </div>
+                        <div id="header_navegar_central_anuncie">
+
+                        </div>
+                    </div>
+                    <div id="header_navegar_filtro">
+                    
+                    </div>
+                    <div id="header_navegar_publicidade">
+                        <h1>Publicidade</h1>
+                            <a href="#"><img src="midias/01.jpg" alt="" title=""></a>
+                    </div>
+
+        </div>
     </section>
     <section class="box">
         <div id="imoveis_home">
