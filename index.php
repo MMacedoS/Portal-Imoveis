@@ -46,10 +46,20 @@
                             <p>Esqueci minha senha</p>
                         </div>
                         <div id="header_navegar_central_anuncie">
-
+                            <div class="header_navegar_central_anuncie">
+                                <a href="#">Clique aqui e  Anuncie</a>
+                                <p>Anunciar na Cehma é a melhor maneira de vender ou alugar seu imovel</p>
+                            </div>
                         </div>
                     </div>
                     <div id="header_navegar_filtro">
+
+                        <h1>Encontre seu Imovel</h1>
+                        <h2>Busca interativa - selecione abaixo! </h2>
+
+                        <form action="" name="filtar" method="post">
+                           
+                        </form>
                     
                     </div>
                     <div id="header_navegar_publicidade">
